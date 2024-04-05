@@ -1,4 +1,4 @@
-CREATE DATABASE IF NOT EXISTS walmart;
+CREATE DATABASE walmart;
 
 USE walmart;
 
@@ -26,7 +26,7 @@ SHOW GLOBAL VARIABLES LIKE 'local_infile';
 SET GLOBAL local_infile = 1;
 
 LOAD DATA LOCAL INFILE 
-'/Users/mohammedshehbazdamkar/Downloads/WalmartSalesData.csv.csv'
+'/home/user/Downloads/Walmart Sales Data.csv.csv'
 INTO TABLE sales
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
